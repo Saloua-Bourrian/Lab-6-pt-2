@@ -14,7 +14,7 @@ def decode(password):
         result += new_num
 
     return result
-
+#test
 
 def menu():
     print('Menu')
