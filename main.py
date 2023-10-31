@@ -8,13 +8,13 @@ def encode(password):
 
 
 def decode(password):
-    result = ''
+    result = ""
+    # katies code
     for num in password:
-        new_num = str((int(num) - 3) % 10)
-        result += new_num
-
+        new_num = int(num) - 3
+        result = result + str(new_num)
     return result
-#test
+
 
 def menu():
     print('Menu')
